@@ -21,7 +21,7 @@
 #   Whether https should be used in repo URL
 #
 class bareos::repository (
-  Enum['19.2', '20', '21, '22'] $release             = '22',
+  Enum['19.2', '20', '21, '22'] $release        = '22',
   Optional[String[1]]      $gpg_key_fingerprint = undef,
   Boolean                  $subscription        = false,
   Optional[String]         $username            = undef,
