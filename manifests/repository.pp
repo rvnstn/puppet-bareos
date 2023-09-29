@@ -40,7 +40,7 @@ class bareos::repository (
     # note the .com
     $address = "download.bareos.com/bareos/release/${release}/"
   } else {
-    $address = "download.bareos.org/bareos/current/"
+    $address = "download.bareos.org/current/"
   }
 
   $os = $facts['os']['name']
