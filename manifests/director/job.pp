@@ -801,7 +801,7 @@ define bareos::director::job (
       [$run_after_failed_job, 'Run After Failed Job', 'runscript_short', false],
       [$run_after_job, 'Run After Job', 'runscript_short', false],
       [$run_before_job, 'Run Before Job', 'runscript_short', false],
-      [$run_on_incoming_connect_interval, 'Run On Incoming Connect Interval', 'time', false]
+      [$run_on_incoming_connect_interval, 'Run On Incoming Connect Interval', 'time', false],
       [$run_script, 'Run Script', 'runscript', false],
       [$save_file_history, 'Save File History', 'boolean', false],
       [$schedule_res, 'Schedule', 'res', false],
