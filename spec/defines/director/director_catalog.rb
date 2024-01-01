@@ -23,7 +23,6 @@ describe 'bareos::director::catalog' do
       context 'with required values' do
         let(:params) do
           {
-            'db_driver' => 'postgresql',
             'db_name' => 'catalogdb'
           }
         end
@@ -40,7 +39,6 @@ describe 'bareos::director::catalog' do
         res.param('name', 'Name', 'name').
           param('description', 'Description', 'string').
           param('db_address', 'Db Address', 'string').
-          param('db_driver', 'Db Driver', 'string').
           param('db_name', 'Db Name', 'string').
           param('db_password', 'Db Password', 'autopassword').
           param('db_port', 'Db Port', 'pint32').
